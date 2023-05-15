@@ -1,0 +1,30 @@
+{
+  "Scope1": {
+    "Type": "Table",
+    "Class": "AttFoo2",
+    "Value": {
+      "ExternalInteger": {
+        "Type": "Integer",
+        "Value": 10
+      },
+      "ExternalIntegerArray": {
+        "Type": "Integer",
+        "Value": [ 10, 20, 30, 40, 50 ]
+      },
+      "NestedScope": {
+        "Type": "Table",
+        "Class": "AttFoo2",
+        "Value": {
+          "ExternalInteger": {
+            "Type": "Integer",
+            "Value": 56
+          },
+          "ExternalIntegerArray": {
+            "Type": "Integer",
+            "Value": [ 23, 34, 97, 44, 55 ]
+          }
+        }
+      }
+    }
+  }
+}

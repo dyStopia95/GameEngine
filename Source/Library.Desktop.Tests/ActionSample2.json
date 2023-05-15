@@ -1,0 +1,72 @@
+{
+  "Name": {
+    "Type": "String",
+    "Value": "ParentObject"
+  },
+  "Transform": {
+    "Type": "String",
+    "Value": "Transform Placeholder"
+  },
+  "IncrementINT": {
+    "Type": "Integer",
+    "Value": 0
+  },
+  "Actions": {
+    "Type": "Table",
+    "Class": "ActionListIf",
+    "Value": {
+      "Name": {
+        "Type": "String",
+        "Value": "IFTesting"
+      },
+      "Condition": {
+        "Type": "Integer",
+        "Value": 1
+      },
+      "Then": {
+        "Type": "Table",
+        "Class": "ActionIncrement",
+        "Value": {
+          "Name": {
+            "Type": "String",
+            "Value": "TrueIncrement"
+          },
+          "TargetName": {
+            "Type": "String",
+            "Value": "IncrementINT"
+          },
+          "Step": {
+            "Type": "Integer",
+            "Value": 1
+          },
+          "TargetIndex": {
+            "Type": "Integer",
+            "Value": 0
+          }
+        }
+      },
+      "Else": {
+        "Type": "Table",
+        "Class": "ActionIncrement",
+        "Value": {
+          "Name": {
+            "Type": "String",
+            "Value": "FalseIncrement"
+          },
+          "TargetName": {
+            "Type": "String",
+            "Value": "IncrementINT"
+          },
+          "Step": {
+            "Type": "Integer",
+            "Value": -1
+          },
+          "TargetIndex": {
+            "Type": "Integer",
+            "Value": 0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "Name": {
+    "Type": "String",
+    "Value": "ParentObject"
+  },
+  "Transform": {
+    "Type": "String",
+    "Value": "Transform Placeholder"
+  },
+  "Children": {
+    "Type": "Table",
+    "Class": "GameOBJTest",
+    "Value": {
+      "Name": {
+        "Type": "String",
+        "Value": "Child1"
+      },
+      "Transform": {
+        "Type": "String",
+        "Value": "Child1 Transform"
+      },
+      "IncrementINT": {
+        "Type": "Integer",
+        "Value": 34
+      },
+      "Children": {
+        "Type": "Table",
+        "Class": "GameOBJTest",
+        "Value": {
+          "Name": {
+            "Type": "String",
+            "Value": "Child2"
+          },
+          "Transform": {
+            "Type": "String",
+            "Value": "Child2 Transform"
+          },
+          "IncrementINT": {
+            "Type": "Integer",
+            "Value": 99
+          }
+        }
+      }
+    }
+  }
+}

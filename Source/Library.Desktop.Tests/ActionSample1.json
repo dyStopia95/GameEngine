@@ -1,0 +1,46 @@
+{
+  "Name": {
+    "Type": "String",
+    "Value": "ParentObject"
+  },
+  "Transform": {
+    "Type": "String",
+    "Value": "Transform Placeholder"
+  },
+  "IncrementINT": {
+    "Type": "Integer",
+    "Value": 0
+  },
+  "Actions": {
+    "Type": "Table",
+    "Class": "ActionList",
+    "Value": {
+      "Name": {
+        "Type": "String",
+        "Value": "ActionList1"
+      },
+      "Actions": {
+        "Type": "Table",
+        "Class": "ActionIncrement",
+        "Value": {
+          "Name": {
+            "Type": "String",
+            "Value": "ActionIncrement1"
+          },
+          "TargetName": {
+            "Type": "String",
+            "Value": "IncrementINT"
+          },
+          "Step": {
+            "Type": "Integer",
+            "Value": 1
+          },
+          "TargetIndex": {
+            "Type": "Integer",
+            "Value": 0
+          }
+        }
+      }
+    }
+  }
+}

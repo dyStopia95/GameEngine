@@ -1,0 +1,40 @@
+{
+  "IntAttribute": {
+    "Type": "Integer",
+    "Value": [ 100, 99, 98 ]
+  },
+  "FloatAttribute": {
+    "Type": "Float",
+    "Value": 35.1
+  },
+  "StringAttribute": {
+    "Type": "String",
+    "Value": "test string :)"
+  },
+  "Nested1": {
+    "Type": "Table",
+    "Value": {
+      "L1Int": {
+        "Type": "Integer",
+        "Value": 25
+      },
+      "L1String": {
+        "Type": "String",
+        "Value": "Layer1 string!"
+      },
+      "Nested2": {
+        "Type": "Table",
+        "Value": {
+          "L2Int": {
+            "Type": "Integer",
+            "Value": 65
+          },
+          "L2String": {
+            "Type": "String",
+            "Value": "Layer2 string!"
+          }
+        }
+      }
+    }
+  }
+}

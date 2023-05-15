@@ -1,0 +1,19 @@
+{
+  "Scope1": {
+    "Type": "Table",
+    "Value": [
+      {
+        "Int1": {
+          "Type": "Integer",
+          "Value": 10
+        }
+      },
+      {
+        "Int2": {
+          "Type": "Integer",
+          "Value": 20
+        }
+      }
+    ]
+  }
+}

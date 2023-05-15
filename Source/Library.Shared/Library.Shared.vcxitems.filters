@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{cafabb4f-e614-474e-9479-00d57ade9b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\SList">
+      <UniqueIdentifier>{ab92c118-48a8-4445-80eb-2d993e5ea81a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Vector">
+      <UniqueIdentifier>{354a7684-1b78-499d-aac3-863d8f3ab7c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\HashMap">
+      <UniqueIdentifier>{79879a09-8d88-4447-a583-16ea73288062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Datum">
+      <UniqueIdentifier>{abe2e57b-331a-4287-8214-fb9b444b46c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\RTTI">
+      <UniqueIdentifier>{10028895-3526-41e9-b362-25c5d298a2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Scope">
+      <UniqueIdentifier>{7d337a7a-9ece-40c0-bc82-f93b39c7292b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Attributed">
+      <UniqueIdentifier>{e8fab26a-a838-4755-9ea6-2db653ac2df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Parser">
+      <UniqueIdentifier>{7fd4d3b3-a330-48ca-a53d-57fac9370b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Factory">
+      <UniqueIdentifier>{c61ed142-8b3a-4cfd-a416-5967407f1a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\GameObject">
+      <UniqueIdentifier>{e07b8619-1cc3-4059-9f0a-674cbfbbc885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Action">
+      <UniqueIdentifier>{a38441b4-ff64-4884-adf9-073e2015ca50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\GameClock">
+      <UniqueIdentifier>{c66b7163-c990-4c67-b5be-aa117eca1df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Event">
+      <UniqueIdentifier>{c1784d98-5978-4b34-8bb8-f2623eaac708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Reaction">
+      <UniqueIdentifier>{6f452577-3696-4590-99a1-87370b8d5096}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SList.h">
+      <Filter>Containers\SList</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)vector.h">
+      <Filter>Containers\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)HashMap.h">
+      <Filter>Containers\HashMap</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultHash.h">
+      <Filter>Containers\HashMap</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Datum.h">
+      <Filter>Containers\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)RTTI.h">
+      <Filter>Containers\RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Scope.h">
+      <Filter>Containers\Scope</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Attributed.h">
+      <Filter>Containers\Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TypeManager.h">
+      <Filter>Containers\Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ParseHelper.h">
+      <Filter>Containers\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IntegerParseHelper.h">
+      <Filter>Containers\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ParseCoordinator.h">
+      <Filter>Containers\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TableParseHelper.h">
+      <Filter>Containers\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)FloatParseHelper.h">
+      <Filter>Containers\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)StringParseHelper.h">
+      <Filter>Containers\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Factory.h">
+      <Filter>Containers\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObject.h">
+      <Filter>Containers\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Action.h">
+      <Filter>Containers\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameClock.h">
+      <Filter>Containers\GameClock</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameTime.h">
+      <Filter>Containers\GameClock</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ConcreteActions.h">
+      <Filter>Containers\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EventSystem.h">
+      <Filter>Containers\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Reaction.h">
+      <Filter>Containers\Reaction</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Datum.cpp">
+      <Filter>Containers\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)RTTI.cpp">
+      <Filter>Containers\RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Scope.cpp">
+      <Filter>Containers\Scope</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Attributed.cpp">
+      <Filter>Containers\Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ParseCoordinator.cpp">
+      <Filter>Containers\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IntegerParseHelper.cpp">
+      <Filter>Containers\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ParseHelper.cpp">
+      <Filter>Containers\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TableParseHelper.cpp">
+      <Filter>Containers\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)FloatParseHelper.cpp">
+      <Filter>Containers\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)StringParseHelper.cpp">
+      <Filter>Containers\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Factory.cpp">
+      <Filter>Containers\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameObject.cpp">
+      <Filter>Containers\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameClock.cpp">
+      <Filter>Containers\GameClock</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameTime.cpp">
+      <Filter>Containers\GameClock</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Action.cpp">
+      <Filter>Containers\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ConcreteActions.cpp">
+      <Filter>Containers\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)EventSystem.cpp">
+      <Filter>Containers\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Reaction.cpp">
+      <Filter>Containers\Reaction</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)SList.inl">
+      <Filter>Containers\SList</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)vector.inl">
+      <Filter>Containers\Vector</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)HashMap.inl">
+      <Filter>Containers\HashMap</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Datum.inl">
+      <Filter>Containers\Datum</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)RTTI.inl">
+      <Filter>Containers\RTTI</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)EventSystem.inl">
+      <Filter>Containers\Event</Filter>
+    </None>
+  </ItemGroup>
+</Project>

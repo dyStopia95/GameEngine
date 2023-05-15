@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Support Code">
+      <UniqueIdentifier>{0974dc87-26cb-41ec-af40-1c4bcf2fecd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\AttributedTestSet">
+      <UniqueIdentifier>{e72da21b-c094-4ce8-a966-73f9559388f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AttributedClasses">
+      <UniqueIdentifier>{8fdf7153-c8db-4362-9a14-bda63dd9dd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParseTestSet">
+      <UniqueIdentifier>{a047b60d-5ba7-4cc2-a1a4-36fd35b505ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FactoryTestSet">
+      <UniqueIdentifier>{d73a439b-5a1d-476a-bd70-eda13d49ae28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestFactories">
+      <UniqueIdentifier>{7db32d03-173f-4291-9b36-31638c08daa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc Classes">
+      <UniqueIdentifier>{d2f55e6f-414c-40c7-88b0-590f605ea433}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SListTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Foo.cpp">
+      <Filter>Misc Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="FooTests.cpp">
+      <Filter>Misc Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="vectorTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HashMapTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HashFnTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HashMapFooTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatumTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedFoo.cpp">
+      <Filter>AttributedClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedTests.cpp">
+      <Filter>Source Files\AttributedTestSet</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeManagerTests.cpp">
+      <Filter>Source Files\AttributedTestSet</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseHelperTest.cpp">
+      <Filter>Source Files\ParseTestSet</Filter>
+    </ClCompile>
+    <ClCompile Include="DummyWrapperAndHelper.cpp">
+      <Filter>Source Files\ParseTestSet</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryTests.cpp">
+      <Filter>Source Files\FactoryTestSet</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjFoos.cpp">
+      <Filter>AttributedClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOBJTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactionTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="FooSpecializations.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Foo.h">
+      <Filter>Misc Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SListSpecializations.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorSpecializations.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DatumSpecializations.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedFoo.h">
+      <Filter>AttributedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerTestClasses.h">
+      <Filter>AttributedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="DummyWrapperAndHelper.h">
+      <Filter>Source Files\ParseTestSet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\vcpkg\installed\x64-windows\include\json\json.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="DummyFactories.h">
+      <Filter>TestFactories</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjFoos.h">
+      <Filter>AttributedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTestClasses.h">
+      <Filter>Misc Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="ParserSample.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="ParserSample2.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="FactorySample1.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="GameOBJSample1.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="ActionSample1.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="ActionSample2.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
